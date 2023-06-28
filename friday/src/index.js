@@ -5,13 +5,17 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Home from './component/01Home'
 import About from './component/02About'
+import Navbar from './component/Navbar'
+import 'bootstrap5/src/css/bootstrap.min.css'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     {/* <App /> */}
-    <Home />
-    <About />
+    <Navbar />
+    {/* <Home />
+    <About /> */}
+   
   </React.StrictMode>
 );
 
